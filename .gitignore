@@ -422,3 +422,6 @@ memory-vis/
 scripts/build_system/steam/*
 !scripts/build_system/steam/builder/steamcmd.exe
 !scripts/build_system/steam/config
+
+# For the fork depot
+copy_asset_files.bat
