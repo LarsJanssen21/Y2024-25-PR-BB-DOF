@@ -1,4 +1,7 @@
-add_library(Renderer)
+add_library(Renderer
+        public/passes/dof_pass.hpp
+        private/passes/dof_pass.cpp
+)
 module_default_init(Renderer)
 
 target_link_libraries(Renderer
